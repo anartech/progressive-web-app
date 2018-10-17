@@ -10,7 +10,7 @@ import { MoltinOrder } from './models/order';
 @Injectable()
 export class Moltin {
     private moltin = MoltinGateway({
-        client_id: 'u8cV0fAtS8ELXcyxWY2r4deLTHs1i3NkgV8rt7ZqWX'
+        client_id: 'jph7ykXvulxE93Dwdj0xR2JM2gicNwWNMAl4KeMAGh'
     });
 
     constructor(public httpClient: HttpClient) {
